@@ -1,0 +1,18 @@
+update_graph_scatter: Execution failed on sql 'SELECT * FROM Tweets ORDER BY UnixTime DESC LIMIT 1000': no such table: Tweets
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity > 0 then 1 else null end) as Positive,                 count(case when Polarity < 0 then 1 else null end) as Negative from                 (select Polarity from Tweets where abs(Polarity)>=0.001                  ORDER BY UnixTime DESC limit 1000) as a': no such table: Tweets
+update_recent_tweets: Execution failed on sql 'SELECT UnixTime, Tweet, Polarity FROM Tweets ORDER BY UnixTime DESC LIMIT 20': no such table: Tweets
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity > 0 then 1 else null end) as Positive,                 count(case when Polarity < 0 then 1 else null end) as Negative from                 (select Polarity from Tweets where abs(Polarity)>=0.001                  ORDER BY UnixTime DESC limit 1000) as a': no such table: Tweets
+update_graph_scatter: Execution failed on sql 'SELECT * FROM Tweets ORDER BY UnixTime DESC LIMIT 1000': no such table: Tweets
+update_recent_tweets: Execution failed on sql 'SELECT UnixTime, Tweet, Polarity FROM Tweets ORDER BY UnixTime DESC LIMIT 20': no such table: Tweets
+update_graph_scatter: Execution failed on sql 'SELECT * FROM Tweets ORDER BY UnixTime DESC LIMIT 1000': no such table: Tweets
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity > 0 then 1 else null end) as Positive,                 count(case when Polarity < 0 then 1 else null end) as Negative from                 (select Polarity from Tweets where abs(Polarity)>=0.001                  ORDER BY UnixTime DESC limit 1000) as a': no such table: Tweets
+update_recent_tweets: Execution failed on sql 'SELECT UnixTime, Tweet, Polarity FROM Tweets ORDER BY UnixTime DESC LIMIT 20': no such table: Tweets
+update_graph_scatter: Execution failed on sql 'SELECT * FROM Tweets ORDER BY UnixTime DESC LIMIT 1000': no such table: Tweets
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity > 0 then 1 else null end) as Positive,                 count(case when Polarity < 0 then 1 else null end) as Negative from                 (select Polarity from Tweets where abs(Polarity)>=0.001                  ORDER BY UnixTime DESC limit 1000) as a': no such table: Tweets
+update_recent_tweets: Execution failed on sql 'SELECT UnixTime, Tweet, Polarity FROM Tweets ORDER BY UnixTime DESC LIMIT 20': no such table: Tweets
+update_graph_scatter: Execution failed on sql 'SELECT * FROM Tweets ORDER BY UnixTime DESC LIMIT 1000': no such table: Tweets
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity > 0 then 1 else null end) as Positive,                 count(case when Polarity < 0 then 1 else null end) as Negative from                 (select Polarity from Tweets where abs(Polarity)>=0.001                  ORDER BY UnixTime DESC limit 1000) as a': no such table: Tweets
+update_recent_tweets: Execution failed on sql 'SELECT UnixTime, Tweet, Polarity FROM Tweets ORDER BY UnixTime DESC LIMIT 20': no such table: Tweets
+update_graph_scatter: Execution failed on sql 'SELECT * FROM Tweets ORDER BY UnixTime DESC LIMIT 1000': no such table: Tweets
+updatePieChart: Execution failed on sql 'SELECT count(case when Polarity > 0 then 1 else null end) as Positive,                 count(case when Polarity < 0 then 1 else null end) as Negative from                 (select Polarity from Tweets where abs(Polarity)>=0.001                  ORDER BY UnixTime DESC limit 1000) as a': no such table: Tweets
+update_recent_tweets: Execution failed on sql 'SELECT UnixTime, Tweet, Polarity FROM Tweets ORDER BY UnixTime DESC LIMIT 20': no such table: Tweets
